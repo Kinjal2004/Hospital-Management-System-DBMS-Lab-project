@@ -1,12 +1,38 @@
-# React + Vite
+# 🏥 HMS - Hospital Management System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A sleek and functional web-based **Hospital Management System** built using **React**, **PostgreSQL**, and **Neon Database (serverless)**. This application allows administrators to efficiently manage and view patient **medical reports** and **billing information**, including pending payments.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- 🔍 **Fetch Patient Medical Reports**
+  - View diagnosis, prescriptions, and record dates
+- 💳 **Track Pending Payments**
+  - Identify bills that are unpaid per patient
+- 🧑‍⚕️ **Patient-Centric Dashboard**
+  - Clean UI to view reports and billing details
+- ☁️ **Neon Database Integration**
+  - Secure and serverless PostgreSQL for cloud deployment
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🧱 Tech Stack
+
+| Tech           | Usage                      |
+|----------------|----------------------------|
+| React          | Frontend UI                |
+| Neon           | Serverless PostgreSQL DB   |
+| SQL            | Query patient records      |
+| Tailwind CSS   | (optional) UI Styling      |
+| Vite           | React app bundler          |
+
+---
+
+## 🖥️ Setup Instructions
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/your-username/hms.git
+cd hms
