@@ -28,6 +28,8 @@ A sleek and functional web-based **Hospital Management System** built using **Re
 | Vite           | React app bundler          |
 
 ---
+## 🌐 Visit the Website
+https://effervescent-crumble-769bb9.netlify.app/
 
 ## 🖥️ Setup Instructions
 
